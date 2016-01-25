@@ -420,3 +420,10 @@
 	result = "lye"
 	required_reagents = list("ash" = 1, "water" = 1)
 	result_amount = 2
+
+/datum/chemical_reaction/janadium
+	name = "janadium"
+	id = "janadium"
+	result = "janadium"
+	required_reagents = list("hydrogen" = 1, "nitrogen" = 1, "radium" = 1)
+	result_amount = 2
