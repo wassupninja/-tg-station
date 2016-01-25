@@ -43,10 +43,10 @@
 	category = list("Subspace Telecomms")
 
 /datum/design/telecomms_processor
-	name = "Machine Design (Processor Unit)"
+	name = "Machine Design (Processor Device)"
 	desc = "Allows for the construction of Telecommunications Processor equipment."
 	id = "s-processor"
-	req_tech = list("programming" = 2, "engineering" = 2)
+	req_tech = list("programming" = 2, "engineering" = 3)
 	build_type = IMPRINTER
 	materials = list(MAT_GLASS = 1000, "sacid" = 20)
 	build_path = /obj/item/weapon/circuitboard/telecomms/processor
@@ -63,8 +63,8 @@
 	category = list("Subspace Telecomms")
 
 /datum/design/subspace_broadcaster
-	name = "Machine Design (Subspace Broadcaster)"
-	desc = "Allows for the construction of Subspace Broadcasting equipment."
+	name = "Machine Design (Subspace Transmitter)"
+	desc = "Allows for the construction of Subspace Transmitting equipment."
 	id = "s-broadcaster"
 	req_tech = list("programming" = 2, "engineering" = 2, "bluespace" = 1)
 	build_type = IMPRINTER
