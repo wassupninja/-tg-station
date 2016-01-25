@@ -179,3 +179,10 @@
 	S.loc = get_turf(holder.my_atom)
 	if(holder && holder.my_atom)
 		qdel(holder.my_atom)
+		
+/datum/chemical_reaction/powdered_milk
+	name = "Powered Milk"
+	id = "powered_milk"
+	result = null
+	required_reagents = list("soymlk" = 2, "welding_fuel" = 2, "sugar" = 2)
+	result_amount = 3
